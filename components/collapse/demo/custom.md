@@ -44,7 +44,7 @@ ReactDOM.render(
     <Panel header="This is panel header 2" key="2" style={customPanelStyle}>
       <p>{text}</p>
     </Panel>
-    <Panel header="This is panel header 3" key="3" style={customPanelStyle}>
+    <Panel header="This is panel header 3" disabled="true" key="3" style={customPanelStyle}>
       <p>{text}</p>
     </Panel>
   </Collapse>,
